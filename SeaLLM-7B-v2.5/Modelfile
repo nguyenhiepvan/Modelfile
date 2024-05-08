@@ -1,0 +1,18 @@
+FROM ./seallm-7b-v2.5.Q4_K_M.gguf
+TEMPLATE """<bos><|im_start|>system
+{{ .System }}<eos>
+<|im_start|>user
+{{ .Prompt }}<eos>
+<|im_start|>assistant
+"""
+
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0.7 
+PARAMETER stop "<eos>"
+PARAMETER stop "<|im_start|>"
+
+MESSAGE system You are a helpful assistant.
+MESSAGE user Hello world
+MESSAGE assistant Hi there, how can I help you today?
+MESSAGE user Explain general relativity in details.
