@@ -1,3 +1,10 @@
+Announcing SeaLLM-7B-v2.5 | SOTA on VMLU, surpass GPT-3.5 and more…
+Mô hình SeaLLM-7B-v2.5 tiếp tục hỗ trợ 10 ngôn ngữ ĐNÁ, với các điểm benchmark cao:
+VMLU tiếng Viêt: 53.30 - 7B SOTA
+SEA-knowledge: 63.11-Viet, 48.64-Indo, 46.86-Thai, vượt xa ChatGPT.
+Tư duy giải toán: 34.9 MATH English, vượt ChatGPT ở giải toán ở các ngôn ngữ khác
+SeaBench vượt xa ChatGPT ở nhiểu ngôn ngữ ĐNÁ.
+Bạn có thể download model and tìm hiểu thêm dưới:
 Website: https://damo-nlp-sg.github.io/SeaLLMs/
 DEMO: https://huggingface.co/spaces/SeaLLMs/SeaLLM-7B-v2.5
 Full weight download: https://huggingface.co/SeaLLMs/SeaLLM-7B-v2.5

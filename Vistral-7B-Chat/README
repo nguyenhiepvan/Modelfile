@@ -1,0 +1,13 @@
+Chào mọi người,
+Mình muốn giới thiệu với mọi người một mô hình ngôn ngữ lớn cho tiếng Việt mới do nhóm mình ở University of Oregon cùng team Viet Mistral và Ontocord phát triển có tên là Vistral.
+Đánh giá của bọn mình trên bộ dữ liệu VMLU (vmlu. ai) và được kết quả như bên dưới, trong đó thì Vistral đạt được 50.07% average score (average score của ChatGPT hiện tại là 46.33%). Kết quả này đã được verify và cập nhật trên Leaderboard bởi Organizer (vmlu. ai/leaderboard).
+Download: https://huggingface.co/Viet-Mistral/Vistral-7B-Chat
+Demo: https://504b44c11fe7a99b98.gradio.live
+Vistral được phát triển từ mô hình Mistral 7B của tiếng Anh bằng cách mở rộng từ vựng và huấn luyện trên các dữ liệu đa dạng. Cụ thể các bước để phát triển Vistral bao gồm:
+1. Mở rộng từ vựng cho Mistral 7B để hỗ trợ tiếng Việt.
+2. Huấn luyện Mistral thêm (continual pretraining) trên dữ liệu tiếng Việt đa dạng được tinh chỉnh kỹ lưỡng.
+Huấn luyện thêm (supervised fine-tuning) trên dữ liệu instruction đa dạng với nhiều chủ đề. Trong dữ liệu này, bọn mình có thiết kế một số dữ liệu thủ công để tăng tính an toàn và khả năng cho mô hình.
+Mô hình của bọn mình để phục vụ mục đích nghiên cứu và tham khảo cho cộng động. Mô hình vẫn còn nhiều thiếu sót và hy vọng được cộng đồng góp ý để phát triển thêm.
+Nhóm mình đang trong quá trình đánh giá kỹ lưỡng hơn và viết paper, nên nhóm mình xin chia sẻ thông tin chi tiết hơn về mô hình và cách huấn luyện sau.
+Cảm ơn mọi người đã đọc bài.
+Cám ơn team Zalo AI team đã tạo ra một bộ data chất lượng cao cho Tiếng Việt, và đã support nhóm verify và update cho cộng đồng.
